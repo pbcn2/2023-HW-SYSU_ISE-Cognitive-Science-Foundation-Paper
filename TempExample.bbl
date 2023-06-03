@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{7}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{#1}
 \expandafter\ifx\csname urlstyle\endcsname\relax\else
@@ -11,9 +11,39 @@
   \let\eprint\href
 \fi
 
-\bibitem[enderfga()]{PID}
-ENDERFGA.
-\newblock Application of pid control in blood pressure control in medical anesthesia process\allowbreak[EB/OL].
-\newblock \url{https://blog.enderfga.cn/2022/05/04/pid/}.
+\bibitem[崔翯(2023)]{崔翯2023脑机接口概论}
+崔翯.
+\newblock 脑机接口概论\allowbreak[J].
+\newblock 新华文摘, 2023: 140-143.
+
+\bibitem[陶建华，陈云霁(2016)]{陶建华-陈云霁2016类脑计算芯片与类脑智能机器人发展现状与思考}
+陶建华，陈云霁.
+\newblock 类脑计算芯片与类脑智能机器人发展现状与思考\allowbreak[J].
+\newblock 中国科学院院刊, 2016: 803-811.
+
+\bibitem[徐波，刘成林，曾毅(2016)]{徐波-刘成林-曾毅2016类脑智能研究现状与发展思考}
+徐波，刘成林，曾毅.
+\newblock 类脑智能研究现状与发展思考\allowbreak[J].
+\newblock 中国科学院院刊, 2016: 793-802.
+
+\bibitem[蒲慕明，徐波，谭铁牛(2016)]{蒲慕明-徐波-谭铁牛2016脑科学与类脑研究概述}
+蒲慕明，徐波，谭铁牛.
+\newblock 脑科学与类脑研究概述\allowbreak[J].
+\newblock 中国科学院院刊, 2016: 725-736.
+
+\bibitem[赵欣怡，宗群，张睿隆，田栢苓，张秀云，冯聪(2019)]{赵欣怡-宗群-张睿隆-田栢苓-张秀云-冯聪2019类脑智能技术在无人系统上的应用}
+赵欣怡，宗群，张睿隆，田栢苓，张秀云，冯聪.
+\newblock 类脑智能技术在无人系统上的应用\allowbreak[J].
+\newblock 控制理论与应用, 2019: 1-12.
+
+\bibitem[Semi(2014)]{Semi2014神经形态芯片-仿生学的驱动力}
+SEMI.
+\newblock 神经形态芯片：仿生学的驱动力\allowbreak[J].
+\newblock 集成电路应用, 2014: 40-41.
+
+\bibitem[Idowu(2021)]{Oluwagbenga}
+IDOWU O~P.
+\newblock 实现基于躯体感觉反馈的双向闭环脑机接口系统的智能神经假肢控制\allowbreak[D].
+\newblock 中国科学院大学(中国科学院深圳先进技术研究院), 2021.
 
 \end{thebibliography}

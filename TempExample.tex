@@ -3,6 +3,7 @@
 \documentclass{thuemp}
 \usepackage{url}
 \usepackage{lipsum}  % 生产假书乱文的包，实际使用时可去掉
+% \usepackage{graphicx}
 \usepackage{hyperref}
 \begin{document}
 
@@ -67,10 +68,13 @@
 
 我们希望通过对这些主题的研究和分析，能够深化对神经形态芯片在脑控无人系统中应用的理解，并为其未来的研究和发展提供参考。神经形态芯片在脑控无人系统中的应用展示了令人期待的前景，将进一步推动无人系统技术的进步，并引领我们步入一个更智能和自主的未来。
 
-
-\section{实验原理}
-
 \section{神经形态芯片的基本原理}
+
+\begin{figure}[h]
+	\centering
+    \includegraphics[width=0.8\linewidth]{./img/yte_sjxp.jpg}
+    \caption{英特尔研发的神经芯片: $31mm^2$容纳100万人工神经元} 
+\end{figure}
 
 \subsection{神经形态芯片概述}
 
@@ -80,6 +84,12 @@
 
 \subsubsection{神经元组成仿生}
 神经形态芯片的基础构成单元是模拟神经元的神经元模拟器，这种模拟器可以模拟生物神经元的基本功能。通常，神经元模拟器由多个子单元组成，包括模拟膜电位、突触传输和神经递质释放等功能的部分。这些子单元模拟神经元内外电位变化以及突触间的信号传导，从而复制了神经元的兴奋和抑制过程。
+
+\begin{figure}[h]
+	\centering
+    \includegraphics[width=0.8\linewidth]{./img/sjy.png}
+    \caption{神经元}
+\end{figure}
 
 \subsubsection{神经形态芯片的连接结构}
 神经形态芯片模拟了神经元之间的连接结构，从而实现了神经网络的建立。通常，神经元间的连接采用可调的突触权重，这种权重可以调整神经元之间信号传递的强度和方向。通过这种可调的突触权重，神经形态芯片具备了学习和适应外部输入的能力，并能形成动态的神经网络拓扑结构。
@@ -102,6 +112,12 @@
 
 \subsection{脑控无人系统的挑战和限制}
 虽然脑机接口和无人系统各自已取得显著的进步，但要将两者融合形成脑控无人系统，仍需克服一些困难和局限。诸如信号解析度、实时响应、用户训练以及适应性，还有伦理和隐私问题等，都是脑控无人系统所需面临的挑战。战胜这些困难将成为脑控无人系统发展的关键推动力，并促使其在各种领域得到更广泛的应用。
+
+\begin{figure}[h]
+	\centering
+    \includegraphics[width=0.8\linewidth]{./img/njjk-lch.jpg}
+    \caption{脑控无人系统流程概览}
+\end{figure}
 
 \subsubsection{信号分辨率和准确性}
 脑控无人系统的运作需要准确捕捉并解析大脑信号，再将这些信号转化为可执行的命令。然而，现有的脑机接口技术在信号解析度和精度上仍有一定的短板。因素如大脑信号中的噪声、干扰以及对特定动作和意愿的辨识精度等问题，都在阻碍脑控无人系统的精确性和可信度。
@@ -158,7 +174,14 @@
 \end{itemize}
 
 \section{应用假设}
-\subsection{神经形态芯片在神经疾病治疗中的一个具体应用方案和使用方法}
+\subsection{神经形态芯片在假肢控制中的一个具体应用方案和使用方法}
+
+\begin{figure}[h]
+	\centering
+    \includegraphics[width=0.8\linewidth]{./img/njjk-jzh.jpeg}
+    \caption{脑机接口控制假肢效果图}
+\end{figure}
+
 {\heiti 神经形态芯片选择：}
 \begin{itemize}
 	\item 研究目的：明确目标脑区的特点和需要解码的大脑信号类型，例如运动皮质的神经元活动和肢体运动信号。
@@ -209,6 +232,8 @@
 同时，结合人工智能和机器学习等其他领域的技术，我们可以进一步提升脑控无人系统的性能和应用范围。比如，人工智能和机器学习可以帮助无人系统进行自主学习和决策，以适应复杂的任务和环境。
 
 无论是在医学还是军事领域，神经形态芯片的应用前景都非常广阔。虽然目前还面临一些挑战和问题，但我们有理由相信，随着科技的进步和创新，神经形态芯片有可能引领我们进入一个更智能、自主和高效的无人系统时代。
+\cite{崔翯2023脑机接口概论}
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -217,22 +242,23 @@
 %  参考文献按GB/T 7714－2015《文后参考文献著录规则》的要求著录. 
 %  参考文献在正文中的引用方法：\cite{bib文件条目的第一行}
 
-% \renewcommand\refname{\heiti\wuhao\centerline{参考文献}\global\def\refname{参考文献}}
-% \vskip 12pt
+\renewcommand\refname{\heiti\wuhao\centerline{参考文献}\global\def\refname{参考文献}}
+\vskip 12pt
 
-% \let\OLDthebibliography\thebibliography
-% \renewcommand\thebibliography[1]{
-%   \OLDthebibliography{#1}
-%   \setlength{\parskip}{0pt}
-%   \setlength{\itemsep}{0pt plus 0.3ex}
-% }
+\let\OLDthebibliography\thebibliography
+\renewcommand\thebibliography[1]{
+  \OLDthebibliography{#1}
+  \setlength{\parskip}{0pt}
+  \setlength{\itemsep}{0pt plus 0.3ex}
+}
 
-% {
-% \renewcommand{\baselinestretch}{0.9}
-% \liuhao
-% \bibliographystyle{gbt7714-numerical}
-% \bibliography{./TempExample}
-% }
+{
+\renewcommand{\baselinestretch}{0.9}
+\liuhao
+\nocite{*}
+\bibliographystyle{gbt7714-numerical}
+\bibliography{./TempExample}
+}
 
 
 
